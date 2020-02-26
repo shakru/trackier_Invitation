@@ -385,12 +385,9 @@ input:-webkit-autofill:focus {
 
 .client-area,
 .header-area {
-    background: #4ea0d985 url('../images/banner2.jpg') no-repeat scroll center center / cover;
+    background: #4ea0d985 url('../images/banner2-min.jpg') no-repeat scroll center center / cover;
 }
 
-/* .anlge-bg {
-    background: url('images/angle-bg.png') no-repeat scroll center bottom -120px / 100% auto;
-} */
 
 .overlay {
     position: relative;
@@ -790,11 +787,7 @@ input:-webkit-autofill:focus {
 .footer-area {
     padding-top: 15px;
     z-index: 1;
-}
-
-.footer-bg {
-    background: url('../images/angle-bg.png') no-repeat scroll center bottom / 100% auto;
-    z-index: -1;
+    background: #388fc2;
 }
 
 .footer-top {
