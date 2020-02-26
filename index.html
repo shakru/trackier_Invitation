@@ -120,13 +120,15 @@
         var exampleCallback = function () {
             console.log('Order complete!');
         };
-        window.EBWidgets.createWidget({
-            widgetType: 'checkout',
-            eventId: '92679036493',
-            iframeContainerId: 'eventbrite-widget-container-92679036493',
-            iframeContainerHeight: 425,
-            onOrderComplete: exampleCallback
-        });
+        setTimeout(function () {
+            window.EBWidgets.createWidget({
+                widgetType: 'checkout',
+                eventId: '92679036493',
+                iframeContainerId: 'eventbrite-widget-container-92679036493',
+                iframeContainerHeight: 425,
+                onOrderComplete: exampleCallback
+            });
+        }, 1000)
     </script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
